@@ -49,7 +49,7 @@ class main{
 	} 
 	public static void main(String[] args) 
 	{ 
-		String str = "GeeksForGeeks"; 
+		String str = "Whatisyourname"; 
 		int index = 5; 
 
 		// Get the specific character 
@@ -79,4 +79,35 @@ public class arrays {
 
        System.out.println(students [2]); 
     }
+}
+
+Q.5] Logical Operators  ?
+
+//  Logical ( And && ) Operator 
+
+public class Main {
+  public static void main(String[] args) {
+    int A = 5;
+    System.out.println(A > 3 && A < 10); 
+  }
+}
+
+
+//  Logical ( or || ) Operator 
+
+public class Main {
+  public static void main(String[] args) {
+    int B = 9
+    System.out.println(B > 2 || B < 10); 
+  }
+}
+
+
+//  Logical ( Not ! ) Operator 
+
+public class Main {
+  public static void main(String[] args) {
+    int C = 15;
+    System.out.println(!(C > 7 && C < 20)); 
+  }
 }
