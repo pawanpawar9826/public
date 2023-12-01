@@ -6,17 +6,24 @@ import java.util.Scanner;
 
 public class userInput {
     public static void main( String[] args ) {
-     int numberA;
-     int numberB;
+     int numberX;
+     int numberY;
      Scanner input = new Scanner(System.in);
 
-     System.out.println("Enter the value of a");
+     System.out.println("Enter the value of x");
 
      numberA = input.nextInt();
 
-     System.out.println("Enter the value of b");
+     System.out.println("Enter the value of y");
 
      numberB = input.Int();
-     System.out.println(numberA + numberB);
+     System.out.println(numberX + numberY);
    }
 }
+
+
+
+
+
+
+
