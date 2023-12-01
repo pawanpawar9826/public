@@ -56,6 +56,6 @@ class main{
 		char ch = getCharFromString(str, index); 
 
 		System.out.println("Character from " + str + " at index " + index + " is " + ch); 
-	} 
+      } 
 } 
          
