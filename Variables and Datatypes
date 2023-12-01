@@ -63,3 +63,20 @@ class main{
 
 Q.4]  Arrays ?
 
+public class arrays {
+   public static void main(String[] args)
+   {
+       String students[];
+       students = new String[5];
+
+       student[0] = "Ram";
+       System.out.println(students[0]);
+
+       student[1] = "Pawan";
+       student[2] = "Rahul";   
+       student[3] = "Sita";
+       student[4] = "Varun";
+
+       System.out.println(students [2]); 
+    }
+}
