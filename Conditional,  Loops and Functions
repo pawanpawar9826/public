@@ -109,3 +109,22 @@ public class Main {
 		}
 	}
 }
+
+
+
+Q.5    User-Defined Exceptions:
+
+import java.io.*; 
+
+class main { 
+	public static void main (String[] args) { 
+	int a=5; 
+	int b=0; 
+		try{ 
+		System.out.println(a/b); 
+		} 
+	catch(ArithmeticException e){ 
+		e.printStackTrace(); 
+	} 
+	} 
+} 
