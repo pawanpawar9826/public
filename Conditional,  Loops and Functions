@@ -116,12 +116,12 @@ Q.5    User-Defined Exceptions:
 
 import java.io.*; 
 
-class main { 
+class Main { 
 	public static void main (String[] args) { 
-	int a=5; 
-	int b=0; 
+	int x=5; 
+	int y=0; 
 		try{ 
-		System.out.println(a/b); 
+		System.out.println(x/y); 
 		} 
 	catch(ArithmeticException e){ 
 		e.printStackTrace(); 
