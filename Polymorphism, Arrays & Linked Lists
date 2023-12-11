@@ -1,6 +1,7 @@
 1)   ** Now we can create Pig and Dog objects and call the poly() method on both of them:**
 
-ans)=> class poly {
+ans)=> 
+   class poly {
   public void main() {
     System.out.println("keep practicing poly");
   }
