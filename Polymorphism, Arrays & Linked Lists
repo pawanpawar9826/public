@@ -31,3 +31,17 @@ class Main {
 }
 
 
+2)   ** Method Overloading: changing no. of arguments **
+ans) =>
+       class main{  
+static int add(int x,int y){return x+y;}  
+static int add(int x,int y,int z){return x+y+z;}  
+}  
+class TestOverloading1{  
+public static void main(String[] args){  
+System.out.println(main.add(11,11));  
+System.out.println(main.add(11,11,11));  
+}}  
+
+
+
