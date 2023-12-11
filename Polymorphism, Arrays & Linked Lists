@@ -1,1 +1,33 @@
+1)   ** Now we can create Pig and Dog objects and call the poly() method on both of them:**
+
+ans)=> class poly {
+  public void main() {
+    System.out.println("keep practicing poly");
+  }
+}
+
+class Pig extends poly {
+  public void main() {
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Dog extends poly {
+  public void main() {
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    poly mypoly = new poly();
+    poly myPig = new Pig();
+    poly myDog = new Dog();
+        
+    mypoly.main();
+    myPig.main();
+    myDog.main();
+  }
+}
+
 
