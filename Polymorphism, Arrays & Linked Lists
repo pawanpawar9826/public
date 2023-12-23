@@ -44,5 +44,37 @@ System.out.println(main.add(11,11));
 System.out.println(main.add(11,11,11));  
 }}  
 
+3) ** Example of Abstract Class that has Abstract method
+
+ans) =>
+       // Abstract class
+abstract class main {
+	abstract void printInfo();
+}
+
+// Abstraction performed using extends
+class Employee extends main {
+	void printInfo()
+	{
+		String name = "vikash";
+		int age = 35;
+		float salary = 335.2F;
+
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(salary);
+	}
+}
+
+// Base class
+class Base {
+	public static void main(String args[])
+	{
+		main s = new Employee();
+		s.printInfo();
+	}
+}
+
+
 
 
